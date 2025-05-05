@@ -4,7 +4,7 @@ A modern and responsive currency converter web application built using React.js,
 
 ## Features
 
-![Website Screenshot](/public/WEB.PNG)
+![Website Screenshot](/public/WEB.png)
 
 - Fetches live exchange rates using [CurrencyAPI](https://currencyapi.com/)
 - Converts currency values instantly
