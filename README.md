@@ -7,7 +7,7 @@ https://ayown.github.io/CurrencyConverter-reactJS/
 
 ## Features
 
-![Website Screenshot](./WEB.png)
+![Website Screenshot](WEB.png)
 
 - Fetches live exchange rates using [CurrencyAPI](https://currencyapi.com/)
 - Converts currency values instantly
