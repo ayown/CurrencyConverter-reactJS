@@ -1,46 +1,79 @@
 # Currency Converter
 
-A simple and responsive currency converter web application built using HTML, CSS, ReactJS. It fetches real-time exchange rates and allows users to convert between different currencies.
+A modern and responsive currency converter web application built using React.js, Vite, and Tailwind CSS. It fetches real-time exchange rates and allows users to convert between different currencies.
 
 ## Features
 
-![Website Screenshot](WEB.png)
+![Website Screenshot](/public/WEB.PNG)
 
 - Fetches live exchange rates using [CurrencyAPI](https://currencyapi.com/)
 - Converts currency values instantly
 - Displays country flags for selected currencies
 - User-friendly interface with dropdown selection
-- Fully responsive design
+- Fully responsive design using Tailwind CSS
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend Framework:** React.js
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
 - **API:** CurrencyAPI for real-time exchange rates
-- **Deployment:** Vercel (Frontend) & Render (Backend, if applicable)
+- **Development Tools:** ESLint for code quality
+
+## Project Structure
+
+```
+CurrencyConverter-reactJS/
+├── src/               # Source files
+├── public/           # Static assets
+├── node_modules/     # Dependencies
+├── index.html        # Entry HTML file
+├── vite.config.js    # Vite configuration
+├── tailwind.config.js # Tailwind CSS configuration
+├── eslint.config.js  # ESLint configuration
+└── package.json      # Project dependencies and scripts
+```
 
 ## Installation & Usage
 
-### Clone the Repository
+### Prerequisites
+
+- Node.js (Latest LTS version recommended)
+- npm or yarn
+
+### Setup
+
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/ayown/CurrencyConverter-reactJS.git
 cd CurrencyConverter-reactJS
 ```
 
-### Open Locally
+2. Install Dependencies
 
-Simply open the `index.html` file in your browser.
+```bash
+npm install
+```
 
-### Live Demo
+3. Start Development Server
 
-You can access the live version here: [Live Site](https://your-vercel-deployment-url.vercel.app)
+```bash
+npm run dev
+```
 
-## Deployment
+4. Build for Production
 
-This project is deployed using:
+```bash
+npm run build
+```
 
-- **Vercel** for hosting the frontend
-- **Render** (if backend is required)
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
 ## License
 
