@@ -26,8 +26,8 @@ https://ayown.github.io/CurrencyConverter-reactJS/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/ayown/PROJECTS.git
-cd CURRENCY CONVERTER
+git clone https://github.com/ayown/CurrencyConverter-reactJS.git
+cd CurrencyConverter-reactJS
 ```
 
 ### Open Locally
